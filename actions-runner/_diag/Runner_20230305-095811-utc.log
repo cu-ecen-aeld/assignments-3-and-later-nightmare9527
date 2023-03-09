@@ -1,0 +1,142 @@
+[2023-03-05 09:58:11Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 09:58:11Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-03-05 09:58:11Z INFO Listener] RuntimeInformation: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023.
+[2023-03-05 09:58:11Z INFO Listener] Version: 2.302.1
+[2023-03-05 09:58:11Z INFO Listener] Commit: b3492cb90f7a757c5a39196f956340fbbbae14d1
+[2023-03-05 09:58:11Z INFO Listener] Culture: en-US
+[2023-03-05 09:58:11Z INFO Listener] UI Culture: en-US
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO Listener] Validating directory permissions for: '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO CommandLineParser] Parse
+[2023-03-05 09:58:11Z INFO CommandLineParser] Parsing 1 args
+[2023-03-05 09:58:11Z INFO CommandLineParser] parsing argument
+[2023-03-05 09:58:11Z INFO CommandLineParser] HasArgs: False
+[2023-03-05 09:58:11Z INFO CommandLineParser] Adding Command: run
+[2023-03-05 09:58:11Z INFO Listener] Arguments parsed
+[2023-03-05 09:58:11Z INFO Runner] ExecuteCommand
+[2023-03-05 09:58:11Z INFO ConfigurationStore] currentAssemblyLocation: /home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Listener.dll
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] binPath: /home/harrison/assignment-1-nightmare9527/actions-runner/bin
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] RootFolder: /home/harrison/assignment-1-nightmare9527/actions-runner
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] ConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.runner
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] CredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] MigratedCredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'Service': '/home/harrison/assignment-1-nightmare9527/actions-runner/.service'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] ServiceConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.service
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'help': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'version': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'check': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Command 'configure': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Command 'remove': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-03-05 09:58:11Z INFO ConfigurationManager] LoadSettings
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 09:58:11Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 09:58:11Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-03-05 09:58:11Z INFO ConfigurationManager] Settings Loaded
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-03-05 09:58:11Z INFO CommandSettings] Command 'run': 'True'
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 09:58:11Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 09:58:11Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-03-05 09:58:11Z INFO Runner] Set runner startup type - Manual
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-05 09:58:11Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-05 09:58:11Z INFO Runner] RunAsync
+[2023-03-05 09:58:11Z INFO ConfigurationManager] LoadSettings
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 09:58:11Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 09:58:11Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 09:58:11Z INFO ConfigurationManager] Settings Loaded
+[2023-03-05 09:58:11Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "harrison-VirtualBox",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527",
+  "WorkFolder": "_work"
+}
+[2023-03-05 09:58:11Z INFO MessageListener] Loading Credentials
+[2023-03-05 09:58:11Z INFO ConfigurationStore] HasCredentials()
+[2023-03-05 09:58:11Z INFO ConfigurationStore] stored True
+[2023-03-05 09:58:11Z INFO CredentialManager] GetCredentialProvider
+[2023-03-05 09:58:11Z INFO CredentialManager] Creating type OAuth
+[2023-03-05 09:58:11Z INFO CredentialManager] Creating credential type: OAuth
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 09:58:11Z INFO HostContext] Well known config file 'RSACredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams'
+[2023-03-05 09:58:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 09:58:11Z INFO MessageListener] Attempt to create session.
+[2023-03-05 09:58:11Z INFO MessageListener] Connecting to the Runner Server...
+[2023-03-05 09:58:11Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 09:58:11Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-03-05 09:58:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 09:58:11Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 09:58:11Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 09:58:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 09:58:11Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 09:58:11Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 09:58:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 09:58:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 09:58:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 09:58:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 09:58:13Z INFO MessageListener] VssConnection created
+[2023-03-05 09:58:13Z INFO Terminal] WRITE LINE: 
+[2023-03-05 09:58:13Z INFO Terminal] WRITE LINE: 
+[2023-03-05 09:58:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 09:58:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 09:58:15Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 09:58:15Z INFO MessageListener] Session created.
+[2023-03-05 09:58:15Z INFO Terminal] WRITE LINE: Current runner version: '2.302.1'
+[2023-03-05 09:58:15Z INFO Terminal] WRITE LINE: 2023-03-05 09:58:15Z: Listening for Jobs
+[2023-03-05 09:58:15Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-03-05 09:58:18Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 09:58:18Z INFO MessageListener] Message '2' received from session 'e48d0d58-fc17-4fd5-95fa-797384965478'.
+[2023-03-05 09:58:18Z INFO Runner] Received job message of length 37510 from service, with hash '62e4b4820456369ed3e29c1572b5dc78d0b797f3758b4f5c5883ad3971cd29dc'
+[2023-03-05 09:58:18Z INFO JobDispatcher] Job request 2 for plan de8d620a-40fc-4df5-84ba-042133647641 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-03-05 09:58:18Z INFO JobDispatcher] Pull OrchestrationId de8d620a-40fc-4df5-84ba-042133647641.unit-test.__default from JWT claims
+[2023-03-05 09:58:18Z INFO Terminal] WRITE LINE: 2023-03-05 09:58:18Z: Running job: unit-test
+[2023-03-05 09:58:18Z INFO JobDispatcher] Start renew job request 2 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-05 09:58:18Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 3/5/2023 10:08:18 AM
+[2023-03-05 09:58:18Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 108 111'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-05 09:58:18Z INFO ProcessInvokerWrapper] Process started with process id 56466, waiting for process exit.
+[2023-03-05 09:58:18Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-05 09:58:18Z INFO ProcessChannel] Sending message of length 37510, with hash '62e4b4820456369ed3e29c1572b5dc78d0b797f3758b4f5c5883ad3971cd29dc'
+[2023-03-05 09:58:19Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-05 09:58:19Z INFO JobNotification] Entering StartMonitor

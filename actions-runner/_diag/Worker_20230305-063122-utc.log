@@ -1,0 +1,3535 @@
+[2023-03-05 06:31:22Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 06:31:22Z INFO Worker] Version: 2.302.1
+[2023-03-05 06:31:22Z INFO Worker] Commit: b3492cb90f7a757c5a39196f956340fbbbae14d1
+[2023-03-05 06:31:22Z INFO Worker] Culture: en-US
+[2023-03-05 06:31:22Z INFO Worker] UI Culture: en-US
+[2023-03-05 06:31:22Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-03-05 06:31:22Z INFO ProcessChannel] Receiving message of length 37512, with hash 'b19c09aeca4f7a615a30dbdfa2437bdc98f8089534dc82cbbb9aa9267c6168e8'
+[2023-03-05 06:31:22Z INFO Worker] Message received.
+[2023-03-05 06:31:22Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/github-actions.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "5ae3cfb7-d7d4-55cf-e765-f7829c54f157",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 23,
+        "col": 19,
+        "lit": "Checkout submodules"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 24,
+              "col": 19,
+              "lit": "git submodule update --init --recursive"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "0358dd64-d4c6-52fe-1d1f-54fa3c1bbc5e",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 25,
+        "col": 19,
+        "lit": "Run full test"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 26,
+              "col": 18,
+              "lit": "./full-test.sh"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "65a7d644-3062-544f-df76-4b95bcf50146",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-03-05 06:31:18+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "1"
+    },
+    "build.containerId": {
+      "value": "18550857"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/github-actions.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "full-test"
+    },
+    "system.phaseId": {
+      "value": "ab5579c2-8327-5dba-a8ef-b554bdd0f462"
+    },
+    "system.phaseName": {
+      "value": "full-test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "full-test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "full-test"
+    },
+    "system.jobDisplayName": {
+      "value": "full-test"
+    },
+    "system.jobId": {
+      "value": "a047640a-23da-5e9b-1ef8-917a09b3753a"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"Pages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://actions-results-receiver-production.githubapp.com"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 27,
+    "planId": "de8d620a-40fc-4df5-84ba-042133647641",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/1",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "assignment-1-nightmare9527"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "cu-ecen-aeld"
+    }
+  },
+  "timeline": {
+    "id": "de8d620a-40fc-4df5-84ba-042133647641",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "a047640a-23da-5e9b-1ef8-917a09b3753a",
+  "jobDisplayName": "full-test",
+  "jobName": "__default",
+  "jobContainer": {
+    "type": 0,
+    "file": 1,
+    "line": 19,
+    "col": 20,
+    "lit": "cuaesd/aesd-autotest:assignment1"
+  },
+  "requestId": 1,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "4d9e3df1-4dee-4080-a9dd-b993a6d4f15a",
+          "ServerName": "31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/de8d620a-40fc-4df5-84ba-042133647641/timelines/de8d620a-40fc-4df5-84ba-042133647641/records/a047640a-23da-5e9b-1ef8-917a09b3753a/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "0c265763a06097b59dad6d38f54edbad85d6eeb2"
+        },
+        {
+          "k": "repository",
+          "v": "cu-ecen-aeld/assignment-1-nightmare9527"
+        },
+        {
+          "k": "repository_owner",
+          "v": "cu-ecen-aeld"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "49594950"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/cu-ecen-aeld/assignment-1-nightmare9527.git"
+        },
+        {
+          "k": "run_id",
+          "v": "4334769358"
+        },
+        {
+          "k": "run_number",
+          "v": "1"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repository_id",
+          "v": "607746256"
+        },
+        {
+          "k": "actor_id",
+          "v": "101499016"
+        },
+        {
+          "k": "actor",
+          "v": "nightmare9527"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "nightmare9527"
+        },
+        {
+          "k": "workflow",
+          "v": "assignment-test"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "0c265763a06097b59dad6d38f54edbad85d6eeb2"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "0000000000000000000000000000000000000000"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "f2eca01c0b9dc5b656ac299c5b6117518196130a"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge branch 'assignment1'"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2020-06-21T17:44:55-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "40898c3cb93dc24402df8b806769af13aae858f0"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/f2eca01c0b9dc5b656ac299c5b6117518196130a"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "807de20b9c7ab7b99500bffe3b7825e344d89ac1"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Latest test script\n\nBased on working assignment 4 implementation"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2020-08-11T23:21:11-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "edd55b0f726cbde5578022f6d72fbd3792fbd853"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/807de20b9c7ab7b99500bffe3b7825e344d89ac1"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "b52aed89fdfc409274d831f2374e2689b495825c"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Fall 21 assignment 1 cleanup"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-05-31T14:57:32-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "0538ab5ed1f1c991b52066a0218f860fc2f988b6"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/b52aed89fdfc409274d831f2374e2689b495825c"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "a81bb485c13a23687a72a87b6341114636019964"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Add github actions"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-05-31T15:02:39-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "d0a57781d1e0bf95e5a4e9ca3a6e9c558cd92bec"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/a81bb485c13a23687a72a87b6341114636019964"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "be364f31ee1ec19718f966dd6346ac40e657c8a2"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Fix paths in README"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-05-31T15:08:08-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "fca002028f306cb6ae6e2a178df9a6032e09c85a"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/be364f31ee1ec19718f966dd6346ac40e657c8a2"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "758fe00c474d7f1becbc9894997d7e2fec57b930"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Use shell script for finder implementation"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-05-31T15:25:03-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "868b084063b4cd0722079f82fdc36d0f202d81e8"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/758fe00c474d7f1becbc9894997d7e2fec57b930"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "91988a73ed022082ab13a4739bb38967fbb0a6db"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Use self hosted runner"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-06-05T16:46:10-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "b8de4e07d60806eeab50d781d8f0c8c91c1a5dc2"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/91988a73ed022082ab13a4739bb38967fbb0a6db"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "a84bd2d810fff69a6e21a10879860db565f5186f"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Latest assignment autotest repo"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-06-05T16:54:47-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "5c298a5a830d8ecfba988fb8e2faf560b658fb66"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/a84bd2d810fff69a6e21a10879860db565f5186f"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "daniel.walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "6c8d30e60bf0d2931bf524197bacb49a5b4239f0"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update README.md"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-08-21T16:56:29-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "f29d8d8b7b0c08f8e881816185b3fd8280848ee3"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/6c8d30e60bf0d2931bf524197bacb49a5b4239f0"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "daniel.walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "90cabecdad0e7c0348bcba7fd084e0e17bc23af0"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update README.md"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-08-28T10:27:47-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "ea234b138a9e5fe3f0064c0c68d45c39eaa43cf2"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/90cabecdad0e7c0348bcba7fd084e0e17bc23af0"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "1aca481f18519162ce075e2cc8e6a78abe505259"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update assignment tests\n\nTo pull in fixes for assignment 1/2 autograder"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2021-09-05T16:15:11-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "0b407d3948ecf16cab65fe85e0e6479ffad95dcf"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/1aca481f18519162ce075e2cc8e6a78abe505259"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "3e2a9324591ac9828f52a045e675e05d526c1dc7"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Replace git checkout submodule action\n\nThis action is deprecated by the author and no longer works properly."
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-01-10T19:55:25-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "f80718f79d07cc3853e8cc4fc162ebcfc70e7054"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/3e2a9324591ac9828f52a045e675e05d526c1dc7"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "20217301897b6ec2459031e217f6965b6ea8d933"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Latest assignment autotest"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-13T17:42:42-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "62490c72fdbbded9706da3e2f57c55006cd05c4c"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/20217301897b6ec2459031e217f6965b6ea8d933"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e861c03b391b1589e540b72386bde68105283aff"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Use updated path to assignment autotest submodule"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-22T16:07:19-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "4b61271129c506eab852a90e711207920b7e75b5"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/e861c03b391b1589e540b72386bde68105283aff"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "78dd304a3a05a1acc9854a1282f15c4b6fefd9b1"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Fix comment in CMakeLists"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-22T16:10:41-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "9be456d338a4df101d7f9657f1f511b7d1cfc015"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/78dd304a3a05a1acc9854a1282f15c4b6fefd9b1"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "hemanthluvsfifa@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Hemanth Nandish"
+                              },
+                              {
+                                "k": "username",
+                                "v": "lnxblog"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "633c604ef9f176abe0202c3c776fbf983a1fdfd0"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update finder-test.sh (#4)\n\n* Update finder-test.sh\r\n\r\nModify WRITEDIR to ensure writer.sh creates missing directories\r\n\r\n* Update finder-test.sh\r\n\r\nModify WRITEDIR to ensure writer.sh creates missing directories\r\n\r\n* finder-test.sh: update to remove /tmp/aeld-data directories\r\n\r\n* finder-test.sh: update to remove /tmp/aeld-data directories"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-09-11T02:13:18-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "1aa71280b46782b214510a28123865c42c9bc9d5"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/633c604ef9f176abe0202c3c776fbf983a1fdfd0"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "hemanthluvsfifa@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Hemanth Nandish"
+                              },
+                              {
+                                "k": "username",
+                                "v": "lnxblog"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "27c17d44b2700bb5e0cdecb455f8c5d8560112c9"
+                        },
+                        {
+                          "k": "message",
+                          "v": "github-actions: Don't re-run on tags\n\nSupport running github actions on any branch but do\nnot run if the tag changes or is added to a specific\ncommit.  This prevents extra actions from being run\nwhen a branch is created from an existing commit and\nonly results in a new actions run if/when a new commit\nis pushed on the resulting branch."
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-01-14T17:38:29-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "75824015d3b6cbd8efc4d60d6e1741d982152607"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/27c17d44b2700bb5e0cdecb455f8c5d8560112c9"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "daniel.walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "e5fa1f0172107727df691a33ce6fb770ab0fd16f"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge pull request #5 from cu-ecen-aeld/yaml-fix-a1\n\nyaml fix for A1"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-01-14T17:52:40-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "75824015d3b6cbd8efc4d60d6e1741d982152607"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/e5fa1f0172107727df691a33ce6fb770ab0fd16f"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "8de9c85cb76ab03f864ffc87fe3baf6a37ea1014"
+                        },
+                        {
+                          "k": "message",
+                          "v": "assignment-autotest: Go to latest automated tests\n\nIncluding fixes for assignment 1, assignment 3, assignments\n8 and 9, and assignment 6."
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-01-14T18:16:15-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "1f9cc8f13c4655d651bed92520763f4e6e9ffeba"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/8de9c85cb76ab03f864ffc87fe3baf6a37ea1014"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "daniel.walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "0c265763a06097b59dad6d38f54edbad85d6eeb2"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge pull request #11 from cu-ecen-aeld/update-assignment-autotest\n\nassignment-autotest: Go to latest automated tests"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-01-14T18:17:14-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "1f9cc8f13c4655d651bed92520763f4e6e9ffeba"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/0c265763a06097b59dad6d38f54edbad85d6eeb2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/compare/f2eca01c0b9d^...0c265763a060"
+              },
+              {
+                "k": "created",
+                "v": true
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "daniel.walkes@colorado.edu"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Dan Walkes"
+                          },
+                          {
+                            "k": "username",
+                            "v": "dwalkes"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "noreply@github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "GitHub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "web-flow"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "0c265763a06097b59dad6d38f54edbad85d6eeb2"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Merge pull request #11 from cu-ecen-aeld/update-assignment-autotest\n\nassignment-autotest: Go to latest automated tests"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-01-14T18:17:14-07:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "1f9cc8f13c4655d651bed92520763f4e6e9ffeba"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527/commit/0c265763a06097b59dad6d38f54edbad85d6eeb2"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": "Course Github Organization for University of Colorado at Boulder ECEN 5713 Advanced Embedded Software Development (previously 5013-002)"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 49594950.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "101499016+nightmare9527@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "nightmare9527"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1677598929.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "assignment-1-nightmare9527 created by GitHub Classroom"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "cu-ecen-aeld/assignment-1-nightmare9527"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/cu-ecen-aeld/assignment-1-nightmare9527.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527"
+                    },
+                    {
+                      "k": "id",
+                      "v": 607746256.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "key",
+                            "v": "mit"
+                          },
+                          {
+                            "k": "name",
+                            "v": "MIT License"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDc6TGljZW5zZTEz"
+                          },
+                          {
+                            "k": "spdx_id",
+                            "v": "MIT"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/licenses/mit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "assignment-1-nightmare9527"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJDl40A"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "organization",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": null
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/cu-ecen-aeld"
+                          },
+                          {
+                            "k": "id",
+                            "v": 49594950.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "name",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1677997810.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:cu-ecen-aeld/assignment-1-nightmare9527.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-nightmare9527/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-02-28T15:42:09Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/101499016?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/nightmare9527/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/nightmare9527/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/nightmare9527/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/nightmare9527/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/nightmare9527"
+                    },
+                    {
+                      "k": "id",
+                      "v": 101499016.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "nightmare9527"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "U_kgDOBgzAiA"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/nightmare9527/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/nightmare9527/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/nightmare9527/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/nightmare9527/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/nightmare9527/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/nightmare9527"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "cu-ecen-aeld/assignment-1-nightmare9527/.github/workflows/github-actions.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "0c265763a06097b59dad6d38f54edbad85d6eeb2"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-03-05 06:31:22Z INFO JobRunner] Job ID a047640a-23da-5e9b-1ef8-917a09b3753a
+[2023-03-05 06:31:22Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/
+[2023-03-05 06:31:22Z INFO ConfigurationStore] currentAssemblyLocation: /home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker.dll
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] binPath: /home/harrison/assignment-1-nightmare9527/actions-runner/bin
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] RootFolder: /home/harrison/assignment-1-nightmare9527/actions-runner
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] ConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.runner
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] CredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] MigratedCredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:22Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:22Z INFO HostContext] Well known config file 'Service': '/home/harrison/assignment-1-nightmare9527/actions-runner/.service'
+[2023-03-05 06:31:22Z INFO ConfigurationStore] ServiceConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.service
+[2023-03-05 06:31:22Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-03-05 06:31:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 06:31:23Z INFO Worker] Listening for cancel message from the channel.
+[2023-03-05 06:31:23Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-03-05 06:31:27Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 06:31:27Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/de8d620a-40fc-4df5-84ba-042133647641/timelines/de8d620a-40fc-4df5-84ba-042133647641/records/a047640a-23da-5e9b-1ef8-917a09b3753a/feedstream?api-version=6.0-preview
+[2023-03-05 06:31:27Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-03-05 06:31:27Z INFO JobServerQueue] Initializing results client
+[2023-03-05 06:31:27Z INFO JobServerQueue] Start process web console line queue.
+[2023-03-05 06:31:27Z INFO JobServerQueue] Start process file upload queue.
+[2023-03-05 06:31:27Z INFO JobServerQueue] Start results file upload queue.
+[2023-03-05 06:31:27Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-03-05 06:31:27Z INFO JobServerQueue] Start process timeline update queue.
+[2023-03-05 06:31:27Z INFO ExecutionContext] Initialize GitHub context
+[2023-03-05 06:31:27Z INFO ExecutionContext] Initialize Env context
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:27Z INFO JobRunner] Starting the job execution context.
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO JobRunner] Validating directory permissions for: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Tools': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_tool'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Temp': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_temp'
+[2023-03-05 06:31:27Z INFO JobRunner] Getting job extension.
+[2023-03-05 06:31:27Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known config file 'SetupInfo': '/home/harrison/assignment-1-nightmare9527/actions-runner/.setup_info'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/harrison/assignment-1-nightmare9527/actions-runner/_work/_PipelineMapping/cu-ecen-aeld/assignment-1-nightmare9527/PipelineFolder.json
+[2023-03-05 06:31:27Z INFO PipelineDirectoryManager] Creating a new tracking config file.
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO PipelineDirectoryManager] Creating pipeline directory.
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO PipelineDirectoryManager] Creating workspace directory.
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Tools': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_tool'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Externals': '/home/harrison/assignment-1-nightmare9527/actions-runner/externals'
+[2023-03-05 06:31:27Z INFO JobExtension] Downloading actions
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:27Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:28Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:28Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/dc323e67f16fb5f7663d20ff7941f27f5809e9b6' into /home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions/_temp_c4fb77eb-68e1-4396-8969-ce6a8cb9aa30/a9bb3b77-c3ce-4bf3-9355-80b33e369081.tar.gz.
+[2023-03-05 06:31:28Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-03-05 06:31:31Z INFO ActionManager] Which: 'tar'
+[2023-03-05 06:31:31Z INFO ActionManager] Location: '/usr/bin/tar'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions/_temp_c4fb77eb-68e1-4396-8969-ce6a8cb9aa30/a9bb3b77-c3ce-4bf3-9355-80b33e369081.tar.gz"'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions/_temp_c4fb77eb-68e1-4396-8969-ce6a8cb9aa30/_staging'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50809.
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Process started with process id 50809, waiting for process exit.
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Finished process 50809 with exit code 0, and elapsed time 00:00:00.0353651.
+[2023-03-05 06:31:31Z INFO ActionManager] Finished getting action repository.
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:31Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:31Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-03-05 06:31:31Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:31Z INFO ActionManager] Load action that reference repository from '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions/actions/checkout/v2'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Actions': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/_actions'
+[2023-03-05 06:31:31Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-03-05 06:31:31Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-03-05 06:31:31Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-03-05 06:31:31Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-03-05 06:31:31Z INFO DockerCommandManager] Which: 'docker'
+[2023-03-05 06:31:31Z INFO DockerCommandManager] Location: '/usr/bin/docker'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO JobExtension] Adding .
+[2023-03-05 06:31:31Z INFO JobExtension] Adding .
+[2023-03-05 06:31:31Z INFO JobExtension] Adding .
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:31Z INFO JobExtension] Total accessible running process: 323.
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:31Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "68823131-1fde-4272-a1ed-02624f448e06",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 4,
+  "startTime": "2023-03-05T06:31:27.6667741Z",
+  "finishTime": "2023-03-05T06:31:31.6256578Z"
+}.
+[2023-03-05 06:31:31Z INFO JobRunner] Total job steps: 4.
+[2023-03-05 06:31:31Z INFO JobRunner] Run all job steps.
+[2023-03-05 06:31:31Z INFO StepsRunner] Processing step: DisplayName='Initialize containers'
+[2023-03-05 06:31:31Z INFO StepsRunner] Evaluating: success()
+[2023-03-05 06:31:31Z INFO StepsRunner] Result: true
+[2023-03-05 06:31:31Z INFO StepsRunner] Starting the step.
+[2023-03-05 06:31:31Z INFO ExecutionContext] Reserve record order 6 to 10 for post job actions.
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:31Z INFO HostContext] Well known directory 'Diag': '/home/harrison/assignment-1-nightmare9527/actions-runner/_diag'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Server.APIVersion}}''
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50812.
+[2023-03-05 06:31:31Z INFO ProcessInvokerWrapper] Process started with process id 50812, waiting for process exit.
+[2023-03-05 06:31:32Z INFO JobServer] Successfully started websocket client.
+[2023-03-05 06:31:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '68823131-1fde-4272-a1ed-02624f448e06', success rate: 1/1.
+[2023-03-05 06:31:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '68823131-1fde-4272-a1ed-02624f448e06', success rate: 1/1.
+[2023-03-05 06:31:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Finished process 50812 with exit code 0, and elapsed time 00:00:00.8209052.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Client.APIVersion}}''
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50847.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Process started with process id 50847, waiting for process exit.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Finished process 50847 with exit code 0, and elapsed time 00:00:00.1432007.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Arguments: 'ps --all --quiet --no-trunc --filter "label=0ad730"'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50882.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Process started with process id 50882, waiting for process exit.
+[2023-03-05 06:31:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Finished process 50882 with exit code 0, and elapsed time 00:00:00.0959911.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Arguments: 'network prune --force --filter "label=0ad730"'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50910.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Process started with process id 50910, waiting for process exit.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Finished process 50910 with exit code 0, and elapsed time 00:00:00.1148652.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Arguments: 'network create --label 0ad730 github_network_b9b53a4110b2486a89bcff03a93c679f'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 50939.
+[2023-03-05 06:31:32Z INFO ProcessInvokerWrapper] Process started with process id 50939, waiting for process exit.
+[2023-03-05 06:31:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:33Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] Finished process 50939 with exit code 0, and elapsed time 00:00:00.2260569.
+[2023-03-05 06:31:33Z INFO ContainerOperationProvider] Container name: a37881cbfc1b463c9cbac42ea4e36a8d
+[2023-03-05 06:31:33Z INFO ContainerOperationProvider] Container image: cuaesd/aesd-autotest:assignment1
+[2023-03-05 06:31:33Z INFO ContainerOperationProvider] Container options: 
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Arguments: 'pull cuaesd/aesd-autotest:assignment1'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/_work/assignment-1-nightmare9527/assignment-1-nightmare9527'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 51007.
+[2023-03-05 06:31:33Z INFO ProcessInvokerWrapper] Process started with process id 51007, waiting for process exit.
+[2023-03-05 06:31:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:37Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:40Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:31:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:31:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:31:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:31:59Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:01Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:01Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:01Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:01Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:32:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:11Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:32:21Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:21Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:21Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:32:25Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:26Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:27Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:29Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:30Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:32:31Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:32Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:33Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2023-03-05 06:32:33Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:34Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:32:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:32:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:32:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:32:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:01Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:01Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:01Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:11Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:17Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 25, failed calls: 1, websocket state: Open).
+[2023-03-05 06:33:17Z ERR  JobServer] System.Net.WebSockets.WebSocketException (2): The remote party closed the WebSocket connection without completing the close handshake. ---> System.IO.IOException: Unable to write data to the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.SendAsyncForNetworkStream(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.WriteToStreamAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.WriteWithoutBufferingAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.RawConnectionStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ReadOnlyMemory`1 buffer, WebSocketMessageType messageType, WebSocketMessageFlags messageFlags, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ArraySegment`1 buffer, WebSocketMessageType messageType, Boolean endOfMessage, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServerQueue.ProcessWebConsoleLinesQueueAsync(Boolean runOnce)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.DelayPromise.CompleteTimedOut()
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|182_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-05 06:33:17Z ERR  JobServer] #####################################################
+[2023-03-05 06:33:17Z ERR  JobServer] System.IO.IOException: Unable to write data to the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.SendAsyncForNetworkStream(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.WriteToStreamAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.WriteWithoutBufferingAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.RawConnectionStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ReadOnlyMemory`1 buffer, WebSocketMessageType messageType, WebSocketMessageFlags messageFlags, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ArraySegment`1 buffer, WebSocketMessageType messageType, Boolean endOfMessage, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServerQueue.ProcessWebConsoleLinesQueueAsync(Boolean runOnce)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.DelayPromise.CompleteTimedOut()
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+   --- End of inner exception stack trace ---
+   at System.Net.Security.SslStream.<WriteSingleChunk>g__CompleteWriteAsync|182_1[TIOAdapter](ValueTask writeTask, Byte[] bufferToReturn)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+[2023-03-05 06:33:17Z ERR  JobServer] #####################################################
+[2023-03-05 06:33:17Z ERR  JobServer] System.Net.Sockets.SocketException (104): Connection reset by peer
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.SendAsyncForNetworkStream(Socket socket, CancellationToken cancellationToken)
+   at System.Net.Sockets.NetworkStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.WriteSingleChunk[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Net.Security.SslStream.WriteAsyncInternal[TIOAdapter](TIOAdapter writeAdapter, ReadOnlyMemory`1 buffer)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Security.SslStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnection.WriteToStreamAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.WriteWithoutBufferingAsync(ReadOnlyMemory`1 source, Boolean async)
+   at System.Net.Http.HttpConnection.RawConnectionStream.WriteAsync(ReadOnlyMemory`1 buffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameFallbackAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, Task lockTask, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendFrameAsync(MessageOpcode opcode, Boolean endOfMessage, Boolean disableCompression, ReadOnlyMemory`1 payloadBuffer, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ReadOnlyMemory`1 buffer, WebSocketMessageType messageType, WebSocketMessageFlags messageFlags, CancellationToken cancellationToken)
+   at System.Net.WebSockets.ManagedWebSocket.SendAsync(ArraySegment`1 buffer, WebSocketMessageType messageType, Boolean endOfMessage, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServerQueue.ProcessWebConsoleLinesQueueAsync(Boolean runOnce)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1.AsyncStateMachineBox`1.MoveNext(Thread threadPoolThread)
+   at System.Threading.Tasks.AwaitTaskContinuation.RunOrScheduleAction(IAsyncStateMachineBox box, Boolean allowInlining)
+   at System.Threading.Tasks.Task.RunContinuations(Object continuationObject)
+   at System.Threading.Tasks.Task.DelayPromise.CompleteTimedOut()
+   at System.Threading.TimerQueueTimer.Fire(Boolean isThreadPool)
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.ExecuteUnmanagedThreadPoolWorkItem(IntPtr callback, IntPtr state)
+   at System.Threading.UnmanagedThreadPoolWorkItem.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+
+[2023-03-05 06:33:17Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.4700000 ms (total calls: 25, failed calls: 1).
+[2023-03-05 06:33:17Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/de8d620a-40fc-4df5-84ba-042133647641/timelines/de8d620a-40fc-4df5-84ba-042133647641/records/a047640a-23da-5e9b-1ef8-917a09b3753a/feedstream?api-version=6.0-preview
+[2023-03-05 06:33:17Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.4700000.
+[2023-03-05 06:33:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:33:21Z INFO JobServer] Successfully started websocket client.
+[2023-03-05 06:33:21Z INFO JobServerQueue] Try to append 1 batches web console lines for record '06177fdf-23fa-424a-8ff6-6095bbab173e', success rate: 1/1.
+[2023-03-05 06:33:21Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:21Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:21Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:33:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:33:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:33:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:01Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:01Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:01Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:11Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:21Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:21Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:21Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:34:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:34:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:34:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:01Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:01Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:01Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:11Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:21Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:21Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:21Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:35:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:35:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:35:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:01Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:01Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:01Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:11Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:11Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:21Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:21Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:21Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:31Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:31Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:31Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:41Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:41Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'
+[2023-03-05 06:36:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 06:36:51Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 06:36:51Z INFO HostContext] Well known directory 'Work': '/home/harrison/assignment-1-nightmare9527/actions-runner/_work'

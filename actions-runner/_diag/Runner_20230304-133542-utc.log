@@ -1,0 +1,182 @@
+[2023-03-04 13:35:42Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-04 13:35:42Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-03-04 13:35:42Z INFO Listener] RuntimeInformation: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023.
+[2023-03-04 13:35:42Z INFO Listener] Version: 2.302.1
+[2023-03-04 13:35:42Z INFO Listener] Commit: b3492cb90f7a757c5a39196f956340fbbbae14d1
+[2023-03-04 13:35:42Z INFO Listener] Culture: en-US
+[2023-03-04 13:35:42Z INFO Listener] UI Culture: en-US
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO Listener] Validating directory permissions for: '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO CommandLineParser] Parse
+[2023-03-04 13:35:42Z INFO CommandLineParser] Parsing 1 args
+[2023-03-04 13:35:42Z INFO CommandLineParser] parsing argument
+[2023-03-04 13:35:42Z INFO CommandLineParser] HasArgs: False
+[2023-03-04 13:35:42Z INFO CommandLineParser] Adding Command: run
+[2023-03-04 13:35:42Z INFO Listener] Arguments parsed
+[2023-03-04 13:35:42Z INFO Runner] ExecuteCommand
+[2023-03-04 13:35:42Z INFO ConfigurationStore] currentAssemblyLocation: /home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Listener.dll
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] binPath: /home/harrison/assignment-1-nightmare9527/actions-runner/bin
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] RootFolder: /home/harrison/assignment-1-nightmare9527/actions-runner
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] ConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.runner
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] CredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] MigratedCredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'Service': '/home/harrison/assignment-1-nightmare9527/actions-runner/.service'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] ServiceConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.service
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'help': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'version': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'check': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Command 'configure': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Command 'remove': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-03-04 13:35:42Z INFO ConfigurationManager] LoadSettings
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured()
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-04 13:35:42Z INFO ConfigurationManager] Is configured: True
+[2023-03-04 13:35:42Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-03-04 13:35:42Z INFO ConfigurationManager] Settings Loaded
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-03-04 13:35:42Z INFO CommandSettings] Command 'run': 'True'
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured()
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-04 13:35:42Z INFO ConfigurationManager] Is configured: True
+[2023-03-04 13:35:42Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-03-04 13:35:42Z INFO Runner] Set runner startup type - Manual
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-04 13:35:42Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-04 13:35:42Z INFO Runner] RunAsync
+[2023-03-04 13:35:42Z INFO ConfigurationManager] LoadSettings
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured()
+[2023-03-04 13:35:42Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-04 13:35:42Z INFO ConfigurationManager] Is configured: True
+[2023-03-04 13:35:42Z INFO ConfigurationManager] Settings Loaded
+[2023-03-04 13:35:42Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "harrison-VirtualBox",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527",
+  "WorkFolder": "_work"
+}
+[2023-03-04 13:35:42Z INFO MessageListener] Loading Credentials
+[2023-03-04 13:35:42Z INFO ConfigurationStore] HasCredentials()
+[2023-03-04 13:35:42Z INFO ConfigurationStore] stored True
+[2023-03-04 13:35:42Z INFO CredentialManager] GetCredentialProvider
+[2023-03-04 13:35:42Z INFO CredentialManager] Creating type OAuth
+[2023-03-04 13:35:42Z INFO CredentialManager] Creating credential type: OAuth
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-04 13:35:42Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-04 13:35:42Z INFO HostContext] Well known config file 'RSACredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams'
+[2023-03-04 13:35:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-04 13:35:42Z INFO MessageListener] Attempt to create session.
+[2023-03-04 13:35:42Z INFO MessageListener] Connecting to the Runner Server...
+[2023-03-04 13:35:42Z INFO RunnerServer] EstablishVssConnection
+[2023-03-04 13:35:42Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-03-04 13:35:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-04 13:35:43Z INFO RunnerServer] EstablishVssConnection
+[2023-03-04 13:35:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-04 13:35:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-04 13:35:43Z INFO RunnerServer] EstablishVssConnection
+[2023-03-04 13:35:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-04 13:35:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-04 13:35:43Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-04 13:35:43Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-04 13:35:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-04 13:35:44Z INFO MessageListener] VssConnection created
+[2023-03-04 13:35:44Z INFO Terminal] WRITE LINE: 
+[2023-03-04 13:35:44Z INFO Terminal] WRITE LINE: 
+[2023-03-04 13:35:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-04 13:35:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-04 13:35:45Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-04 13:35:45Z INFO MessageListener] Session created.
+[2023-03-04 13:35:45Z INFO Terminal] WRITE LINE: Current runner version: '2.302.1'
+[2023-03-04 13:35:45Z INFO Terminal] WRITE LINE: 2023-03-04 13:35:45Z: Listening for Jobs
+[2023-03-04 13:35:45Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-03-04 14:05:58Z INFO MessageListener] No message retrieved from session 'f4ebcb8b-f231-4196-a836-9fb51944fbba' within last 30 minutes.
+[2023-03-04 14:31:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-04 14:31:09Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-04 14:36:11Z INFO MessageListener] No message retrieved from session 'f4ebcb8b-f231-4196-a836-9fb51944fbba' within last 30 minutes.
+[2023-03-04 21:39:09Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=f4ebcb8b-f231-4196-a836-9fb51944fbba&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-04 21:39:09Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-04 21:39:09Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-04 21:39:09Z ERR  MessageListener] #####################################################
+[2023-03-04 21:39:09Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-04 21:39:09Z ERR  MessageListener] #####################################################
+[2023-03-04 21:39:09Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-04 21:39:09Z ERR  MessageListener] #####################################################
+[2023-03-04 21:39:09Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-04 21:39:09Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-04 21:39:09Z ERR  Terminal] WRITE ERROR: 2023-03-04 21:39:09Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-04 21:39:09Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-04 21:39:09Z INFO RunnerServer] EstablishVssConnection
+[2023-03-04 21:39:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-04 21:39:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData

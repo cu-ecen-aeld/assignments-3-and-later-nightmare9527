@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "harrison-VirtualBox",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+  "gitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527",
+  "workFolder": "_work"
+}

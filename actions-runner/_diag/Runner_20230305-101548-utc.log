@@ -1,0 +1,1010 @@
+[2023-03-05 10:15:48Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 10:15:48Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-03-05 10:15:48Z INFO Listener] RuntimeInformation: Linux 5.15.0-60-generic #66~20.04.1-Ubuntu SMP Wed Jan 25 09:41:30 UTC 2023.
+[2023-03-05 10:15:48Z INFO Listener] Version: 2.302.1
+[2023-03-05 10:15:48Z INFO Listener] Commit: b3492cb90f7a757c5a39196f956340fbbbae14d1
+[2023-03-05 10:15:48Z INFO Listener] Culture: en-US
+[2023-03-05 10:15:48Z INFO Listener] UI Culture: en-US
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO Listener] Validating directory permissions for: '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO CommandLineParser] Parse
+[2023-03-05 10:15:48Z INFO CommandLineParser] Parsing 1 args
+[2023-03-05 10:15:48Z INFO CommandLineParser] parsing argument
+[2023-03-05 10:15:48Z INFO CommandLineParser] HasArgs: False
+[2023-03-05 10:15:48Z INFO CommandLineParser] Adding Command: run
+[2023-03-05 10:15:48Z INFO Listener] Arguments parsed
+[2023-03-05 10:15:48Z INFO Runner] ExecuteCommand
+[2023-03-05 10:15:48Z INFO ConfigurationStore] currentAssemblyLocation: /home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Listener.dll
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] binPath: /home/harrison/assignment-1-nightmare9527/actions-runner/bin
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] RootFolder: /home/harrison/assignment-1-nightmare9527/actions-runner
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] ConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.runner
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] CredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] MigratedCredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:48Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:48Z INFO HostContext] Well known config file 'Service': '/home/harrison/assignment-1-nightmare9527/actions-runner/.service'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] ServiceConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.service
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'help': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'version': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'check': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Command 'configure': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Command 'remove': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-03-05 10:15:48Z INFO ConfigurationManager] LoadSettings
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 10:15:48Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 10:15:48Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-03-05 10:15:48Z INFO ConfigurationManager] Settings Loaded
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-03-05 10:15:48Z INFO CommandSettings] Command 'run': 'True'
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 10:15:48Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 10:15:48Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 10:15:48Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-03-05 10:15:48Z INFO Runner] Set runner startup type - Manual
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-05 10:15:48Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-05 10:15:49Z INFO Runner] RunAsync
+[2023-03-05 10:15:49Z INFO ConfigurationManager] LoadSettings
+[2023-03-05 10:15:49Z INFO ConfigurationStore] IsConfigured()
+[2023-03-05 10:15:49Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-05 10:15:49Z INFO ConfigurationManager] Is configured: True
+[2023-03-05 10:15:49Z INFO ConfigurationManager] Settings Loaded
+[2023-03-05 10:15:49Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "harrison-VirtualBox",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527",
+  "WorkFolder": "_work"
+}
+[2023-03-05 10:15:49Z INFO MessageListener] Loading Credentials
+[2023-03-05 10:15:49Z INFO ConfigurationStore] HasCredentials()
+[2023-03-05 10:15:49Z INFO ConfigurationStore] stored True
+[2023-03-05 10:15:49Z INFO CredentialManager] GetCredentialProvider
+[2023-03-05 10:15:49Z INFO CredentialManager] Creating type OAuth
+[2023-03-05 10:15:49Z INFO CredentialManager] Creating credential type: OAuth
+[2023-03-05 10:15:49Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-05 10:15:49Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-05 10:15:49Z INFO HostContext] Well known config file 'RSACredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams'
+[2023-03-05 10:15:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 10:15:49Z INFO MessageListener] Attempt to create session.
+[2023-03-05 10:15:49Z INFO MessageListener] Connecting to the Runner Server...
+[2023-03-05 10:15:49Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 10:15:49Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-03-05 10:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 10:15:49Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 10:15:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 10:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 10:15:49Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 10:15:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 10:15:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 10:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 10:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 10:15:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 10:15:50Z INFO MessageListener] VssConnection created
+[2023-03-05 10:15:50Z INFO Terminal] WRITE LINE: 
+[2023-03-05 10:15:50Z INFO Terminal] WRITE LINE: 
+[2023-03-05 10:15:50Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 10:15:50Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 10:15:51Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 10:15:51Z INFO MessageListener] Session created.
+[2023-03-05 10:15:51Z INFO Terminal] WRITE LINE: Current runner version: '2.302.1'
+[2023-03-05 10:15:51Z INFO Terminal] WRITE LINE: 2023-03-05 10:15:51Z: Listening for Jobs
+[2023-03-05 10:15:51Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-03-05 10:31:23Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 10:31:23Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 10:31:23Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 10:31:23Z ERR  MessageListener] #####################################################
+[2023-03-05 10:31:23Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 10:31:23Z ERR  MessageListener] #####################################################
+[2023-03-05 10:31:23Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 10:31:23Z ERR  MessageListener] #####################################################
+[2023-03-05 10:31:23Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 10:31:23Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 10:31:23Z ERR  Terminal] WRITE ERROR: 2023-03-05 10:31:23Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 10:31:23Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 10:31:23Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 10:31:23Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 10:31:23Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 10:31:27Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.902 seconds.
+[2023-03-05 10:31:40Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 10:31:40Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-03-05 10:32:56Z INFO Terminal] WRITE LINE: 2023-03-05 10:32:56Z: Runner reconnected.
+[2023-03-05 10:43:17Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 10:43:17Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 10:43:17Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 10:43:17Z ERR  MessageListener] #####################################################
+[2023-03-05 10:43:17Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 10:43:17Z ERR  MessageListener] #####################################################
+[2023-03-05 10:43:17Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 10:43:17Z ERR  MessageListener] #####################################################
+[2023-03-05 10:43:17Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 10:43:17Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 10:43:17Z ERR  Terminal] WRITE ERROR: 2023-03-05 10:43:17Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 10:43:17Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 10:43:17Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 10:43:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 10:43:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 10:43:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 10:43:21Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2023-03-05 10:44:40Z INFO Terminal] WRITE LINE: 2023-03-05 10:44:40Z: Runner reconnected.
+[2023-03-05 10:46:30Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 11:10:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 11:10:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 11:16:52Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 11:29:38Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 11:29:38Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 11:29:38Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 11:29:38Z ERR  MessageListener] #####################################################
+[2023-03-05 11:29:38Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 11:29:38Z ERR  MessageListener] #####################################################
+[2023-03-05 11:29:38Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:29:38Z ERR  MessageListener] #####################################################
+[2023-03-05 11:29:38Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 11:29:38Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 11:29:38Z ERR  Terminal] WRITE ERROR: 2023-03-05 11:29:38Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 11:29:38Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 11:29:38Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 11:29:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 11:29:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:29:48Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.936 seconds.
+[2023-03-05 11:30:09Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.591 seconds.
+[2023-03-05 11:30:33Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 18.204 seconds.
+[2023-03-05 11:31:01Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:31:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:31:01Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-03-05 11:31:01Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:31:01Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:31:01Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:31:02Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:31:12Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.998 seconds.
+[2023-03-05 11:31:34Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.168 seconds.
+[2023-03-05 11:31:57Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.951 seconds.
+[2023-03-05 11:32:24Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:32:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:32:24Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-03-05 11:32:24Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:32:24Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:32:24Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:32:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:32:35Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.802 seconds.
+[2023-03-05 11:32:55Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.087 seconds.
+[2023-03-05 11:33:19Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.378 seconds.
+[2023-03-05 11:33:46Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:33:46Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:33:46Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2023-03-05 11:33:46Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:33:46Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:33:46Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:33:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:33:56Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.806 seconds.
+[2023-03-05 11:34:17Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 12.739 seconds.
+[2023-03-05 11:34:40Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.133 seconds.
+[2023-03-05 11:35:07Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:35:07Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:35:07Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2023-03-05 11:35:07Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:35:07Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:35:07Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:35:07Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:35:18Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.814 seconds.
+[2023-03-05 11:35:39Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.399 seconds.
+[2023-03-05 11:36:02Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.069 seconds.
+[2023-03-05 11:36:28Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:36:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:36:28Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2023-03-05 11:36:28Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2023-03-05 11:36:28Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:36:28Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:36:28Z INFO MessageListener] Sleeping for 18.857 seconds before retrying.
+[2023-03-05 11:36:58Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 11.163 seconds.
+[2023-03-05 11:37:20Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 12.757 seconds.
+[2023-03-05 11:37:43Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 15.803 seconds.
+[2023-03-05 11:38:09Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:38:09Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 11:38:09Z ERR  MessageListener] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 11:38:09Z ERR  MessageListener] #####################################################
+[2023-03-05 11:38:09Z ERR  MessageListener] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:38:09Z INFO MessageListener] Retriable exception: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+[2023-03-05 11:38:09Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 11:38:09Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 11:38:09Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 11:38:09Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:38:19Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.932 seconds.
+[2023-03-05 11:38:40Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.042 seconds.
+[2023-03-05 11:39:03Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.51 seconds.
+[2023-03-05 11:39:30Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:39:30Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:39:30Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-03-05 11:39:30Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:39:30Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:39:30Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:39:30Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:39:40Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.801 seconds.
+[2023-03-05 11:40:01Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 12.664 seconds.
+[2023-03-05 11:40:24Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.917 seconds.
+[2023-03-05 11:40:52Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:40:52Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:40:52Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-03-05 11:40:52Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:40:52Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:40:52Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:40:52Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:41:02Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 11.02 seconds.
+[2023-03-05 11:41:23Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.039 seconds.
+[2023-03-05 11:41:47Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.882 seconds.
+[2023-03-05 11:42:15Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:42:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:42:15Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2023-03-05 11:42:15Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:42:15Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:42:15Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:42:15Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:42:25Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.967 seconds.
+[2023-03-05 11:42:46Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.264 seconds.
+[2023-03-05 11:43:09Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.706 seconds.
+[2023-03-05 11:43:36Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=0&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:43:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:43:36Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2023-03-05 11:43:36Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:43:36Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:43:36Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:43:36Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:43:46Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.959 seconds.
+[2023-03-05 11:44:07Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 12.694 seconds.
+[2023-03-05 11:44:30Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.608 seconds.
+[2023-03-05 11:44:57Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:44:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:44:57Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2023-03-05 11:44:57Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2023-03-05 11:44:57Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:44:57Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:44:57Z INFO MessageListener] Sleeping for 16.505 seconds before retrying.
+[2023-03-05 11:45:25Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 11.015 seconds.
+[2023-03-05 11:45:46Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 12.688 seconds.
+[2023-03-05 11:46:08Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The operation will be retried in 16.419 seconds.
+[2023-03-05 11:46:35Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:46:35Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 11:46:35Z ERR  MessageListener] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 11:46:35Z ERR  MessageListener] #####################################################
+[2023-03-05 11:46:35Z ERR  MessageListener] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:46:35Z INFO MessageListener] Retriable exception: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+[2023-03-05 11:46:35Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 11:46:35Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 11:46:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 11:46:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:46:45Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 11.024 seconds.
+[2023-03-05 11:47:06Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.306 seconds.
+[2023-03-05 11:47:30Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 16.839 seconds.
+[2023-03-05 11:47:57Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:47:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:47:57Z INFO RunnerServer] Catch exception during connect. 4 attempt left.
+[2023-03-05 11:47:57Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:47:57Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:47:57Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:47:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:48:07Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 11.017 seconds.
+[2023-03-05 11:48:28Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 12.835 seconds.
+[2023-03-05 11:48:51Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 15.894 seconds.
+[2023-03-05 11:49:17Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:49:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:49:17Z INFO RunnerServer] Catch exception during connect. 3 attempt left.
+[2023-03-05 11:49:17Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:49:17Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:49:17Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:49:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:49:27Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 10.904 seconds.
+[2023-03-05 11:49:49Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 12.7 seconds.
+[2023-03-05 11:50:12Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.364 seconds.
+[2023-03-05 11:50:39Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:50:39Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:50:39Z INFO RunnerServer] Catch exception during connect. 2 attempt left.
+[2023-03-05 11:50:39Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:50:39Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:50:39Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:50:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:50:49Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 11.112 seconds.
+[2023-03-05 11:51:11Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13 seconds.
+[2023-03-05 11:51:34Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.189 seconds.
+[2023-03-05 11:52:01Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:52:01Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:52:01Z INFO RunnerServer] Catch exception during connect. 1 attempt left.
+[2023-03-05 11:52:01Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+[2023-03-05 11:52:01Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:52:01Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:52:02Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 11:52:12Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 11.133 seconds.
+[2023-03-05 11:52:33Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 13.039 seconds.
+[2023-03-05 11:52:56Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The operation will be retried in 17.623 seconds.
+[2023-03-05 11:53:24Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/connectionData?connectOptions=1&lastChangeId=1499140097&lastChangeId64=1499140097 failed (Socket Error: TryAgain). The maximum number of attempts has been reached.
+[2023-03-05 11:53:24Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 11:53:24Z ERR  RunnerServer] Catch exception during reset MessageQueue connection.
+[2023-03-05 11:53:24Z ERR  RunnerServer] System.Net.Http.HttpRequestException: Resource temporarily unavailable (pipelines.actions.githubusercontent.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.RunnerService.EstablishVssConnection(Uri serverUrl, VssCredentials credentials, TimeSpan timeout)
+   at GitHub.Runner.Common.RunnerServer.RefreshConnectionAsync(RunnerConnectionType connectionType, TimeSpan timeout)
+[2023-03-05 11:53:24Z ERR  RunnerServer] #####################################################
+[2023-03-05 11:53:24Z ERR  RunnerServer] System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 11:53:24Z INFO MessageListener] Sleeping for 20.34 seconds before retrying.
+[2023-03-05 11:53:44Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 11:54:35Z INFO Terminal] WRITE LINE: 2023-03-05 11:54:35Z: Runner reconnected.
+[2023-03-05 12:06:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 12:06:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 12:24:00Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 12:41:17Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 12:41:17Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 12:41:17Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 12:41:17Z ERR  MessageListener] #####################################################
+[2023-03-05 12:41:17Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 12:41:17Z ERR  MessageListener] #####################################################
+[2023-03-05 12:41:17Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 12:41:17Z ERR  MessageListener] #####################################################
+[2023-03-05 12:41:17Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 12:41:17Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 12:41:17Z ERR  Terminal] WRITE ERROR: 2023-03-05 12:41:17Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 12:41:17Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 12:41:17Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 12:41:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 12:41:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 12:41:19Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 12:41:19Z INFO MessageListener] Sleeping for 27.857 seconds before retrying.
+[2023-03-05 12:42:39Z INFO Terminal] WRITE LINE: 2023-03-05 12:42:39Z: Runner reconnected.
+[2023-03-05 12:45:24Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 12:45:24Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 12:45:24Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 12:45:24Z ERR  MessageListener] #####################################################
+[2023-03-05 12:45:24Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 12:45:24Z ERR  MessageListener] #####################################################
+[2023-03-05 12:45:24Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 12:45:24Z ERR  MessageListener] #####################################################
+[2023-03-05 12:45:24Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 12:45:24Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 12:45:24Z ERR  Terminal] WRITE ERROR: 2023-03-05 12:45:24Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 12:45:24Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 12:45:24Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 12:45:24Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 12:45:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 12:45:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 12:45:29Z INFO MessageListener] Sleeping for 28.923 seconds before retrying.
+[2023-03-05 12:46:48Z INFO Terminal] WRITE LINE: 2023-03-05 12:46:48Z: Runner reconnected.
+[2023-03-05 12:54:23Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 13:02:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 13:02:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 13:02:05Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (3.5453643 seconds)
+[2023-03-05 13:25:11Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 13:32:08Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT/_apis/distributedtask/pools/1/messages?sessionId=cf1fdb0f-f754-4889-b5cd-eae33d4c3269&status=Online&runnerVersion=2.302.1 timed out after 60 seconds.
+[2023-03-05 13:32:08Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-05 13:32:08Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-05 13:32:08Z ERR  MessageListener] #####################################################
+[2023-03-05 13:32:08Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-05 13:32:08Z ERR  MessageListener] #####################################################
+[2023-03-05 13:32:08Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-05 13:32:08Z ERR  MessageListener] #####################################################
+[2023-03-05 13:32:08Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-03-05 13:32:08Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-05 13:32:08Z ERR  Terminal] WRITE ERROR: 2023-03-05 13:32:08Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-05 13:32:08Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-05 13:32:08Z INFO RunnerServer] EstablishVssConnection
+[2023-03-05 13:32:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-05 13:32:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-05 13:32:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-05 13:32:13Z INFO MessageListener] Sleeping for 27.504 seconds before retrying.
+[2023-03-05 13:33:32Z INFO Terminal] WRITE LINE: 2023-03-05 13:33:32Z: Runner reconnected.
+[2023-03-05 13:55:33Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 13:57:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 13:57:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 14:26:06Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 14:53:03Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 14:53:04Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 14:56:26Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 15:26:40Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 15:48:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 15:48:33Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 15:56:57Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 16:27:11Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 16:44:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-05 16:44:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-05 16:57:28Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
+[2023-03-05 17:27:42Z INFO MessageListener] No message retrieved from session 'cf1fdb0f-f754-4889-b5cd-eae33d4c3269' within last 30 minutes.
