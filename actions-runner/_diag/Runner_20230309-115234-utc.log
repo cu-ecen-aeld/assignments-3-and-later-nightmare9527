@@ -299,3 +299,76 @@
 [2023-03-09 12:31:49Z INFO MessageListener] No message retrieved from session 'be3a1050-1b6e-4ff1-868a-8553039450f3' within last 30 minutes.
 [2023-03-09 12:47:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
 [2023-03-09 12:47:47Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-09 12:52:50Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 12:52:50Z INFO MessageListener] Message '20' received from session 'be3a1050-1b6e-4ff1-868a-8553039450f3'.
+[2023-03-09 12:52:50Z INFO Runner] Received job message of length 23711 from service, with hash '1620bd8c16f30f26fae8f6910c5d73a0ab49af413c6e082b8a5e99aa7080fcc1'
+[2023-03-09 12:52:50Z INFO JobDispatcher] Job request 20 for plan 5fe0f98e-f236-4936-aa62-751a42f743fc job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-03-09 12:52:50Z INFO JobDispatcher] Pull OrchestrationId 5fe0f98e-f236-4936-aa62-751a42f743fc.full-test.__default from JWT claims
+[2023-03-09 12:52:50Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-03-09 12:52:50Z INFO Terminal] WRITE LINE: 2023-03-09 12:52:50Z: Running job: full-test
+[2023-03-09 12:52:50Z INFO JobDispatcher] Start renew job request 20 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 12:52:51Z INFO JobDispatcher] Successfully renew job request 20, job is valid till 3/9/2023 1:02:51 PM
+[2023-03-09 12:52:51Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 96 114'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-09 12:52:51Z INFO ProcessInvokerWrapper] Process started with process id 28050, waiting for process exit.
+[2023-03-09 12:52:51Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 12:52:51Z INFO ProcessChannel] Sending message of length 23711, with hash '1620bd8c16f30f26fae8f6910c5d73a0ab49af413c6e082b8a5e99aa7080fcc1'
+[2023-03-09 12:52:51Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-09 12:52:51Z INFO JobNotification] Entering StartMonitor
+[2023-03-09 12:53:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 12:53:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 12:53:03Z INFO ProcessInvokerWrapper] Finished process 28050 with exit code 102, and elapsed time 00:00:11.9207618.
+[2023-03-09 12:53:03Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-03-09 12:53:03Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-03-09 12:53:03Z INFO Terminal] WRITE LINE: 2023-03-09 12:53:03Z: Job full-test completed with result: Failed
+[2023-03-09 12:53:03Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 12:53:03Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 20.
+[2023-03-09 12:53:03Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-09 12:53:03Z INFO JobNotification] Entering EndMonitor
+[2023-03-09 12:53:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 12:53:05Z INFO MessageListener] Message '21' received from session 'be3a1050-1b6e-4ff1-868a-8553039450f3'.
+[2023-03-09 12:53:05Z INFO Runner] Received job message of length 23709 from service, with hash 'e6657839a6d84f66466c8158786a878fda762f5edd7bae25fec4527623b9ae7a'
+[2023-03-09 12:53:05Z INFO JobDispatcher] Job request 21 for plan 5fe0f98e-f236-4936-aa62-751a42f743fc job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-03-09 12:53:05Z INFO JobDispatcher] Pull OrchestrationId 5fe0f98e-f236-4936-aa62-751a42f743fc.unit-test.__default from JWT claims
+[2023-03-09 12:53:05Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-03-09 12:53:05Z INFO Terminal] WRITE LINE: 2023-03-09 12:53:05Z: Running job: unit-test
+[2023-03-09 12:53:05Z INFO JobDispatcher] Start renew job request 21 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 12:53:06Z INFO JobDispatcher] Successfully renew job request 21, job is valid till 3/9/2023 1:03:05 PM
+[2023-03-09 12:53:06Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 96 114'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-09 12:53:06Z INFO ProcessInvokerWrapper] Process started with process id 28913, waiting for process exit.
+[2023-03-09 12:53:06Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 12:53:06Z INFO ProcessChannel] Sending message of length 23709, with hash 'e6657839a6d84f66466c8158786a878fda762f5edd7bae25fec4527623b9ae7a'
+[2023-03-09 12:53:06Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-09 12:53:06Z INFO JobNotification] Entering StartMonitor
+[2023-03-09 12:53:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 12:53:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 12:53:18Z INFO ProcessInvokerWrapper] Finished process 28913 with exit code 102, and elapsed time 00:00:12.1279233.
+[2023-03-09 12:53:18Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-03-09 12:53:18Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-03-09 12:53:18Z INFO Terminal] WRITE LINE: 2023-03-09 12:53:18Z: Job unit-test completed with result: Failed
+[2023-03-09 12:53:18Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 12:53:18Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 21.
+[2023-03-09 12:53:18Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-09 12:53:18Z INFO JobNotification] Entering EndMonitor
+[2023-03-09 13:23:18Z INFO MessageListener] No message retrieved from session 'be3a1050-1b6e-4ff1-868a-8553039450f3' within last 30 minutes.
