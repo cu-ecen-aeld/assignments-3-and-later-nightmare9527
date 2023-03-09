@@ -1,0 +1,224 @@
+[2023-03-09 11:14:47Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-09 11:14:47Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-03-09 11:14:47Z INFO Listener] RuntimeInformation: Linux 5.15.0-67-generic #74~20.04.1-Ubuntu SMP Wed Feb 22 14:52:34 UTC 2023.
+[2023-03-09 11:14:47Z INFO Listener] Version: 2.302.1
+[2023-03-09 11:14:47Z INFO Listener] Commit: b3492cb90f7a757c5a39196f956340fbbbae14d1
+[2023-03-09 11:14:47Z INFO Listener] Culture: en-US
+[2023-03-09 11:14:47Z INFO Listener] UI Culture: en-US
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO Listener] Validating directory permissions for: '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO CommandLineParser] Parse
+[2023-03-09 11:14:47Z INFO CommandLineParser] Parsing 1 args
+[2023-03-09 11:14:47Z INFO CommandLineParser] parsing argument
+[2023-03-09 11:14:47Z INFO CommandLineParser] HasArgs: False
+[2023-03-09 11:14:47Z INFO CommandLineParser] Adding Command: run
+[2023-03-09 11:14:47Z INFO Listener] Arguments parsed
+[2023-03-09 11:14:47Z INFO Runner] ExecuteCommand
+[2023-03-09 11:14:47Z INFO ConfigurationStore] currentAssemblyLocation: /home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Listener.dll
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] binPath: /home/harrison/assignment-1-nightmare9527/actions-runner/bin
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] RootFolder: /home/harrison/assignment-1-nightmare9527/actions-runner
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'Runner': '/home/harrison/assignment-1-nightmare9527/actions-runner/.runner'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] ConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.runner
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'Credentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] CredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] MigratedCredFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_migrated
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'Service': '/home/harrison/assignment-1-nightmare9527/actions-runner/.service'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] ServiceConfigFilePath: /home/harrison/assignment-1-nightmare9527/actions-runner/.service
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'help': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'version': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'check': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Command 'configure': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Command 'remove': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-03-09 11:14:47Z INFO ConfigurationManager] LoadSettings
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured()
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-09 11:14:47Z INFO ConfigurationManager] Is configured: True
+[2023-03-09 11:14:47Z INFO ConfigurationStore] Read setting file: 315 chars
+[2023-03-09 11:14:47Z INFO ConfigurationManager] Settings Loaded
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-03-09 11:14:47Z INFO CommandSettings] Command 'run': 'True'
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured()
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-09 11:14:47Z INFO ConfigurationManager] Is configured: True
+[2023-03-09 11:14:47Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-03-09 11:14:47Z INFO Runner] Set runner startup type - Manual
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-09 11:14:47Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-09 11:14:47Z INFO Runner] RunAsync
+[2023-03-09 11:14:47Z INFO ConfigurationManager] LoadSettings
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured()
+[2023-03-09 11:14:47Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-09 11:14:47Z INFO ConfigurationManager] Is configured: True
+[2023-03-09 11:14:47Z INFO ConfigurationManager] Settings Loaded
+[2023-03-09 11:14:47Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "harrison-VirtualBox",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/31SbzDyHCDi90yffwOI86zoAPqMroYdWhIN2Cpadj0Zfo54cxT",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-nightmare9527",
+  "WorkFolder": "_work"
+}
+[2023-03-09 11:14:47Z INFO MessageListener] Loading Credentials
+[2023-03-09 11:14:47Z INFO ConfigurationStore] HasCredentials()
+[2023-03-09 11:14:47Z INFO ConfigurationStore] stored True
+[2023-03-09 11:14:47Z INFO CredentialManager] GetCredentialProvider
+[2023-03-09 11:14:47Z INFO CredentialManager] Creating type OAuth
+[2023-03-09 11:14:47Z INFO CredentialManager] Creating credential type: OAuth
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:47Z INFO HostContext] Well known directory 'Root': '/home/harrison/assignment-1-nightmare9527/actions-runner'
+[2023-03-09 11:14:47Z INFO HostContext] Well known config file 'RSACredentials': '/home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams'
+[2023-03-09 11:14:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:14:47Z INFO MessageListener] Attempt to create session.
+[2023-03-09 11:14:47Z INFO MessageListener] Connecting to the Runner Server...
+[2023-03-09 11:14:47Z INFO RunnerServer] EstablishVssConnection
+[2023-03-09 11:14:47Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-03-09 11:14:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-09 11:14:47Z INFO RunnerServer] EstablishVssConnection
+[2023-03-09 11:14:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-09 11:14:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-09 11:14:47Z INFO RunnerServer] EstablishVssConnection
+[2023-03-09 11:14:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-09 11:14:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-09 11:14:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-09 11:14:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-09 11:14:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-09 11:14:48Z INFO MessageListener] VssConnection created
+[2023-03-09 11:14:48Z INFO Terminal] WRITE LINE: 
+[2023-03-09 11:14:48Z INFO Terminal] WRITE LINE: 
+[2023-03-09 11:14:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:14:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:14:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-09 11:14:49Z INFO MessageListener] Session created.
+[2023-03-09 11:14:49Z INFO Terminal] WRITE LINE: Current runner version: '2.302.1'
+[2023-03-09 11:14:49Z INFO Terminal] WRITE LINE: 2023-03-09 11:14:49Z: Listening for Jobs
+[2023-03-09 11:14:49Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-03-09 11:14:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:14:53Z INFO MessageListener] Message '6' received from session '73c90cf0-b7d6-4da2-8e24-ac4d1ed10da7'.
+[2023-03-09 11:14:53Z INFO Runner] Received job message of length 37509 from service, with hash 'd0c2bf63ccadd89f22e53f4591f59b8e877c1d82f11a3da241af0739c3c6c542'
+[2023-03-09 11:14:53Z INFO JobDispatcher] Job request 6 for plan cf8ef2ae-d796-4b64-87dc-e7683f4656c3 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-03-09 11:14:53Z INFO JobDispatcher] Pull OrchestrationId cf8ef2ae-d796-4b64-87dc-e7683f4656c3.unit-test.__default from JWT claims
+[2023-03-09 11:14:53Z INFO Terminal] WRITE LINE: 2023-03-09 11:14:53Z: Running job: unit-test
+[2023-03-09 11:14:53Z INFO JobDispatcher] Start renew job request 6 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:14:53Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 3/9/2023 11:24:53 AM
+[2023-03-09 11:14:53Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 107 110'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-09 11:14:53Z INFO ProcessInvokerWrapper] Process started with process id 11840, waiting for process exit.
+[2023-03-09 11:14:53Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:14:53Z INFO ProcessChannel] Sending message of length 37509, with hash 'd0c2bf63ccadd89f22e53f4591f59b8e877c1d82f11a3da241af0739c3c6c542'
+[2023-03-09 11:14:53Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-09 11:14:53Z INFO JobNotification] Entering StartMonitor
+[2023-03-09 11:15:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:08Z INFO ProcessInvokerWrapper] Finished process 11840 with exit code 102, and elapsed time 00:00:15.3878668.
+[2023-03-09 11:15:08Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-03-09 11:15:08Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-03-09 11:15:08Z INFO Terminal] WRITE LINE: 2023-03-09 11:15:08Z: Job unit-test completed with result: Failed
+[2023-03-09 11:15:08Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:15:08Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 6.
+[2023-03-09 11:15:08Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-09 11:15:08Z INFO JobNotification] Entering EndMonitor
+[2023-03-09 11:15:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:15:11Z INFO MessageListener] Message '7' received from session '73c90cf0-b7d6-4da2-8e24-ac4d1ed10da7'.
+[2023-03-09 11:15:11Z INFO Runner] Received job message of length 23690 from service, with hash '729e94ee97e88901ebc4701b0b574b18e2759309bfbb1de6d1468b5b006aa314'
+[2023-03-09 11:15:11Z INFO JobDispatcher] Job request 7 for plan caf87e0f-f7d0-4daa-ac5b-24f299dbd117 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-03-09 11:15:11Z INFO JobDispatcher] Pull OrchestrationId caf87e0f-f7d0-4daa-ac5b-24f299dbd117.full-test.__default from JWT claims
+[2023-03-09 11:15:11Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-03-09 11:15:11Z INFO Terminal] WRITE LINE: 2023-03-09 11:15:11Z: Running job: full-test
+[2023-03-09 11:15:11Z INFO JobDispatcher] Start renew job request 7 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 11:15:11Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 3/9/2023 11:25:11 AM
+[2023-03-09 11:15:11Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 108 112'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-09 11:15:11Z INFO ProcessInvokerWrapper] Process started with process id 13160, waiting for process exit.
+[2023-03-09 11:15:11Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 11:15:11Z INFO ProcessChannel] Sending message of length 23690, with hash '729e94ee97e88901ebc4701b0b574b18e2759309bfbb1de6d1468b5b006aa314'
+[2023-03-09 11:15:11Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-09 11:15:11Z INFO JobNotification] Entering StartMonitor
+[2023-03-09 11:15:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:38Z INFO ProcessInvokerWrapper] Finished process 13160 with exit code 102, and elapsed time 00:00:27.6014739.
+[2023-03-09 11:15:38Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-03-09 11:15:38Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-03-09 11:15:38Z INFO Terminal] WRITE LINE: 2023-03-09 11:15:38Z: Job full-test completed with result: Failed
+[2023-03-09 11:15:38Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-03-09 11:15:38Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 7.
+[2023-03-09 11:15:38Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-09 11:15:38Z INFO JobNotification] Entering EndMonitor
+[2023-03-09 11:15:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/harrison/assignment-1-nightmare9527/actions-runner/.credentials_rsaparams
+[2023-03-09 11:15:41Z INFO MessageListener] Message '8' received from session '73c90cf0-b7d6-4da2-8e24-ac4d1ed10da7'.
+[2023-03-09 11:15:41Z INFO Runner] Received job message of length 23688 from service, with hash '9af2dce396921269e9ea8e5b6b7790c20934762197aeb0217a3caeaabbe16936'
+[2023-03-09 11:15:41Z INFO JobDispatcher] Job request 8 for plan caf87e0f-f7d0-4daa-ac5b-24f299dbd117 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-03-09 11:15:41Z INFO JobDispatcher] Pull OrchestrationId caf87e0f-f7d0-4daa-ac5b-24f299dbd117.unit-test.__default from JWT claims
+[2023-03-09 11:15:41Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-03-09 11:15:41Z INFO Terminal] WRITE LINE: 2023-03-09 11:15:41Z: Running job: unit-test
+[2023-03-09 11:15:41Z INFO JobDispatcher] Start renew job request 8 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:15:41Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 3/9/2023 11:25:41 AM
+[2023-03-09 11:15:41Z INFO HostContext] Well known directory 'Bin': '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   File name: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin/Runner.Worker'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 108 112'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Working directory: '/home/harrison/assignment-1-nightmare9527/actions-runner/bin'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-09 11:15:41Z INFO ProcessInvokerWrapper] Process started with process id 14169, waiting for process exit.
+[2023-03-09 11:15:41Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:15:41Z INFO ProcessChannel] Sending message of length 23688, with hash '9af2dce396921269e9ea8e5b6b7790c20934762197aeb0217a3caeaabbe16936'
+[2023-03-09 11:15:41Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-09 11:15:41Z INFO JobNotification] Entering StartMonitor
+[2023-03-09 11:15:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-09 11:15:56Z INFO ProcessInvokerWrapper] Finished process 14169 with exit code 102, and elapsed time 00:00:15.5194605.
+[2023-03-09 11:15:56Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-03-09 11:15:56Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-03-09 11:15:56Z INFO Terminal] WRITE LINE: 2023-03-09 11:15:56Z: Job unit-test completed with result: Failed
+[2023-03-09 11:15:56Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-03-09 11:15:56Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 8.
+[2023-03-09 11:15:56Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-09 11:15:56Z INFO JobNotification] Entering EndMonitor
