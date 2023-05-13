@@ -1,4 +1,10 @@
 #include "systemcalls.h"
+#include <string.h>
+#include <syslog.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <fcntl.h>
 
 /**
  * @param cmd the command to execute with system()
@@ -16,8 +22,20 @@ bool do_system(const char *cmd)
  *   and return a boolean true if the system() call completed with success
  *   or false() if it returned a failure
 */
-
+  int systret;
+  systret=system(cmd);
+  if(systret==-1){
+   perror("Error");
+   return false;
+   
+  }
+  
+  else{
+  
+  printf("Suceeded");
+  
     return true;
+   }
 }
 
 /**
@@ -59,6 +77,42 @@ bool do_exec(int count, ...)
  *
 */
 
+    pid_t child_pid;
+    int child_status;
+    child_pid=fork();
+    if(child_pid ==-1){
+      perror("\nerror on creating fork\n");
+      return false;
+    }
+    else if(child_pid==0){
+     execv(command[0],command);
+     
+     printf("\nunknown command\n");
+     exit(-1);
+    }
+    
+    if(waitpid (child_pid, &child_status,0)==-1){
+     printf("\nwaiting\n");
+     return false;
+     }
+     
+    else if(WIFEXITED(child_status)){
+      printf("\n returned with status: %d\n", WEXITSTATUS(child_status));
+     if(WEXITSTATUS(child_status)==0){
+       return true;
+     }
+     else {
+       return false;
+     }
+   }
+   
+    else if(WIFEXITED(child_status)==0){
+    perror("waiting error");
+    return false;
+  
+    }
+     
+     
     va_end(args);
 
     return true;
@@ -92,6 +146,75 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
  *   The rest of the behaviour is same as do_exec()
  *
 */
+  int fd= open (outputfile, O_WRONLY|O_TRUNC|O_CREAT, 0644);
+  int ret;
+  if(fd==-1){
+    perror("error on opening");
+    return false;
+   }
+   
+   
+   
+   fflush(stdout);
+   int status;
+   pid_t pid;
+   pid= fork();
+   
+   if(pid==-1){ //fork failed
+    perror("error on creating fork");
+    return false;
+   }
+   else if(pid==0){ //child
+   
+   
+   
+   if(dup2(fd,1)<0){
+     perror("dup2 error");
+     return false;
+   }
+   
+   close(fd);
+   
+   ret=execv(command[0],command);
+   if(ret==-1){
+     perror("execv error");
+     exit(-1);
+    }
+    
+    
+    
+   }
+   //parent
+ else{
+   
+   close(fd);
+   if(waitpid(pid, &status,0)==-1){
+     perror("waiting error");
+     return false;
+   }
+   
+   else if(WIFEXITED(status))
+   {
+     printf("\n returned with status: %d\n", WEXITSTATUS(status));
+     if(WEXITSTATUS(status)==0){
+       return true;
+     }
+     else {
+       return false;
+     }
+   }
+   else if(WIFEXITED(status)==0){
+    perror("waiting error");
+    return false;
+  
+  }
+ }
+     
+   
+   
+     
+   
+   
 
     va_end(args);
 
