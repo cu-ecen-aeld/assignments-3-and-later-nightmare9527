@@ -1,8 +1,6 @@
-CROSS_COMPILE=
+#CROSS_COMPILE=
 
 all:    writer
-writer: writer.o
-	$(CROSS_COMPILE)gcc -g -Wall -I/ writer.o -o writer
         
 
 writer.o: writer.c
