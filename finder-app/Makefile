@@ -3,10 +3,9 @@
 all:    writer
         
 writer:writer.o
-	$(CC) -g -Wall -I/ writer.o -o writer
+	$(CROSS_COMPILE)gcc -g -Wall -I/ writer.o -o writer
 
         
-
 clean:
 	rm -f *.o writer *.elf *.map
 
