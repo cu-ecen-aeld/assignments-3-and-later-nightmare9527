@@ -135,7 +135,7 @@ int main(int argc, char *argv[]){
        return -1;
     }
     //listening
-    if (listen(socketch,8)) 
+    if (listen(socketch,5)) 
     {
        syslog(LOG_ERR, "listening error:%d\n", errno);
        cleanup();
