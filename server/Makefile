@@ -10,6 +10,6 @@ default : aesdsocket
 aesdsocket : aesdsocket.o $(LDFLAGS)
 	$(CC) -o $@ $^
 %.o:%.c
-	$(CC) $(CFLAGS) -c -o $@ $^ $(LDFLAGS)
+	$(CC) $(CFLAGS) -c -o $@ $^
 clean :
 	rm -f aesdsocket.o
